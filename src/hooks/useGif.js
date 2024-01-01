@@ -19,7 +19,7 @@ const useGif = (tag) => {
 
     useEffect(()=>{
         fetchData();   //call the api automatically when the app first renders
-    }, []);
+    }, [fetchData]);
 
     return {gif, loading, fetchData};
 }
