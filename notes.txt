@@ -1,0 +1,1 @@
+here we used custom hook in react - custom hook is nothing more than a custom function
